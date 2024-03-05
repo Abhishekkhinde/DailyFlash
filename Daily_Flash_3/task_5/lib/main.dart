@@ -33,7 +33,7 @@ class _TaskState extends State<Task> {
           width: 200,
 
           //  padding: const EdgeInsets.all(100),
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             shape: BoxShape.circle,
             gradient: LinearGradient(
               colors: [Colors.red, Colors.blue],
