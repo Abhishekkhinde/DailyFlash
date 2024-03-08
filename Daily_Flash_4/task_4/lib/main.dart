@@ -30,6 +30,7 @@ class _DailyFlashState extends State {
         title: const Text("DailyFlash 4.1"),
       ),
       floatingActionButton: FloatingActionButton(
+        splashColor: Colors.orange,
         onPressed: () {},
       ),
     );
