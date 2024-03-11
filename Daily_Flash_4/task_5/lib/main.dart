@@ -23,6 +23,7 @@ class DailyFlash extends StatefulWidget {
 }
 
 class _DailyFlashState extends State {
+  bool color1 = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,8 +31,15 @@ class _DailyFlashState extends State {
         title: const Text("DailyFlash 4.1"),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-      ),
+          onPressed: () {},
+          backgroundColor: color1 ? Colors.red : null,
+          child: GestureDetector(
+            onLongPress: () {
+              setState(() {
+                color1 = true;
+              });
+            },
+          )),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
