@@ -62,14 +62,14 @@ class _DailyFlashState extends State {
           Row(
             children: [
               Expanded(
-                flex: 6,
+                flex: 5,
                 child: Container(
                   height: 100,
                   color: Colors.red,
                 ),
               ),
               Expanded(
-                flex: 3,
+                flex: 4,
                 child: Container(
                   height: 100,
                   color: Colors.purple,
@@ -90,14 +90,14 @@ class _DailyFlashState extends State {
           Row(
             children: [
               Expanded(
-                flex: 6,
+                flex: 7,
                 child: Container(
                   height: 100,
                   color: Colors.red,
                 ),
               ),
               Expanded(
-                flex: 3,
+                flex: 2,
                 child: Container(
                   height: 100,
                   color: Colors.purple,
