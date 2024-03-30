@@ -1,4 +1,8 @@
 import 'package:daily_flash_9/task_1.dart';
+import 'package:daily_flash_9/task_2.dart';
+import 'package:daily_flash_9/task_3.dart';
+import 'package:daily_flash_9/task_4.dart';
+import 'package:daily_flash_9/task_5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +15,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Task1(),
+      debugShowCheckedModeBanner: false,
+      home: Task2(),
     );
   }
 }
