@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_1/task2.dart';
+import 'package:task_1/task3.dart';
 import 'package:task_1/task4.dart';
 import 'package:task_1/task5.dart';
 import 'task1.dart';
@@ -14,8 +15,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Task5(),
+      home: Task3(),
     );
   }
 }
-
