@@ -19,15 +19,14 @@ class _Task1State extends State {
         child: Container(
           padding: const EdgeInsets.only(left: 10, right: 10),
           child: const TextField(
-            decoration: InputDecoration(
-              enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Colors.red),
-              ),
-              focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Colors.green),
-              ),
+              decoration: InputDecoration(
+            enabledBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.red),
             ),
-          ),
+            focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.green),
+            ),
+          )),
         ),
       ),
     );
