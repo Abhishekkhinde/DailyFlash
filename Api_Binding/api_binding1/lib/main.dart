@@ -1,4 +1,4 @@
-import 'package:api_binding1/api1.dart';
+import 'package:api_binding1/api2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +10,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: MyApp());
+    return const MaterialApp(
+      home: MyApp1(),
+    );
   }
 }
